@@ -11,21 +11,30 @@ body {
      display: flex;
 }
 
-.common-color {
-     color: rgb(255, 84, 0);
+.font-style {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
 }
-
+.primary-btn{
+     padding: 1rem;
+     border-radius: 0.5rem;
+     border: none;
+     background-color: rgb(255, 84, 0);
+     color: white;
+     cursor: pointer;
+}
 /* header styles */
 header {
      width: 85%;
      margin: 2rem auto;
-     border-radius: 1rem;
-     
+     /* border-radius: 1rem; */
+
 }
 
 /* Navbar styles */
-.container {
-     
+.nav-container {
+
      justify-content: space-between;
      align-items: center;
 }
@@ -34,10 +43,12 @@ header {
      gap: 15px;
      align-items: center;
 }
-.logo img{
+
+.logo img {
      height: 45px;
 }
-.logo-title{
+
+.logo-title {
      color: rgb(19, 19, 24);
      font-size: 32px;
      font-weight: 800;
@@ -45,7 +56,7 @@ header {
 
 .items {
      gap: 2.5rem;
-     
+
 }
 
 .menu-item {
@@ -60,8 +71,45 @@ header {
      line-height: 23px;
 }
 
-#special-color, .h3-color {
+#special-color,
+.h3-color {
      color: rgb(255, 84, 0);
 }
 
 /* Banner styles */
+.banner-container {
+     background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 60px 185px 106px;
+     border-radius: 1rem;
+}
+
+.banner-title {
+     color: rgb(255, 255, 255);
+     font-size: 64px;
+     font-weight: 800;
+     text-align: center;
+     margin-bottom: 25px;
+}
+
+.banner-description {
+     color: rgb(255, 255, 255);
+     text-align: center;
+}
+
+.banner-input {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 24px;
+     padding: 1rem;
+     border-radius: 0.5rem;
+     background: rgba(255, 255, 255, 0.3);
+     margin: 60px 30px 0px;
+}
+
+.input {
+     padding: 1rem;
+     border-radius: 0.5rem;
+     border: none;
+}
