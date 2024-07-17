@@ -10,13 +10,27 @@ body {
 .display-flex {
      display: flex;
 }
+main{
+     width: 85%;
+     margin: 2rem auto;
+}
+section {
+     margin-top: 6.25rem;
+}
 
 .font-style {
+     color: rgba(19, 19, 24, 0.7);
      font-size: 16px;
      font-weight: 400;
-     line-height: 26px;
 }
-.primary-btn{
+
+.h3-style {
+     color: rgb(19, 19, 24);
+     font-size: 2.5rem;
+     font-weight: 800;
+}
+
+.primary-btn {
      padding: 1rem;
      border-radius: 0.5rem;
      border: none;
@@ -24,6 +38,7 @@ body {
      color: white;
      cursor: pointer;
 }
+
 /* header styles */
 header {
      width: 85%;
@@ -95,6 +110,8 @@ header {
 
 .banner-description {
      color: rgb(255, 255, 255);
+     font-size: 16px;
+     font-weight: 400;
      text-align: center;
 }
 
@@ -112,4 +129,26 @@ header {
      padding: 1rem;
      border-radius: 0.5rem;
      border: none;
+}
+
+/* Our Popular Tours section styles */
+.popular-container {
+     gap: 3.12rem;
+}
+.popular-content{
+     text-align: justify;
+}
+.popular-title{
+     margin-top: 0px;
+     margin-bottom: 24px;
+}
+.popular-points{
+     margin-top: 24px;
+     margin-bottom: 24px;
+}
+.popular-points li{
+     margin-bottom: 16px;
+}
+.popular-description{
+     margin-bottom: 32px;
 }
