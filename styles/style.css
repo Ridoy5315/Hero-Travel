@@ -26,9 +26,21 @@ section {
      font-weight: 400;
 }
 
+.font-style-deeper {
+     color: rgb(90, 90, 93);
+     font-size: 16px;
+     font-weight: 400;
+}
+
 .h3-style {
      color: rgb(19, 19, 24);
      font-size: 2.5rem;
+     font-weight: 800;
+}
+
+.h5-style {
+     color: rgb(19, 19, 24);
+     font-size: 24px;
      font-weight: 800;
 }
 
@@ -188,12 +200,14 @@ header {
      margin: 1rem 0;
      gap: 1.5rem;
 }
+
 .row-2 {
      display: grid;
      grid-template-columns: 0.75fr 1fr 0.55fr;
      margin: 1rem 0;
      gap: 1.5rem;
 }
+
 .row-3 {
      display: grid;
      grid-template-columns: 0.7fr 1fr;
@@ -213,15 +227,145 @@ header {
      font-size: 1.75rem;
      font-weight: 800;
 }
-.north-america p{
+
+.north-america p {
      top: 35%;
      left: 32%;
 }
-.kashmir p{
+
+.kashmir p {
      top: 35%;
      left: 30%;
 }
-.bangladesh p{
+
+.bangladesh p {
      top: 35%;
      left: 35%;
 }
+
+/* Why Choose Us section style */
+.choose-intro {
+     text-align: center;
+     max-width: 700px;
+     margin: 0 auto 48px;
+}
+
+.choose-title {
+     margin-bottom: 1.5rem;
+}
+
+.card h5 {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+}
+
+.card-container img {
+     width: 60px;
+     height: 60px;
+}
+
+.card-container {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 1.5rem;
+     text-align: justify;
+}
+
+.first-row-card {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1.5rem;
+}
+
+.hotels {
+     border: 1px solid rgba(251, 181, 99, 0.2);
+     border-radius: 1rem;
+     background: rgba(251, 181, 99, 0.05);
+     padding: 2rem;
+}
+
+.service {
+     border: 1px solid rgba(41, 206, 246, 0.2);
+     border-radius: 1rem;
+     background: rgba(41, 206, 246, 0.05);
+     padding: 2rem;
+}
+
+.guarantee {
+     border: 1px solid rgba(233, 68, 68, 0.2);
+     border-radius: 1rem;
+     background: rgba(233, 68, 68, 0.05);
+     padding: 2rem;
+     width: 50%;
+     margin: 0 auto;
+}
+
+/* Deals & Discounts */
+.deals-intro{
+     text-align: center;
+     max-width: 700px;
+     margin: 0 auto 48px;
+}
+.deals-title {
+     margin-bottom: 1.5rem;
+}
+.card-1 {
+     background-image: url(../Images/Group\ 39.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 55px;
+     border-radius: 1rem;
+}
+
+.card-2 {
+     background-image: url(../Images/Group\ 40.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 55px;
+     border-radius: 1rem;
+}
+
+.card-3 {
+     background-image: url(../Images/Group\ 39.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 55px;
+     border-radius: 1rem;
+}
+
+.card-1-content, .card-2-content, .card-3-content {
+     max-width: 580px;
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 16px;
+     backdrop-filter: blur(3px);
+     background: rgba(255, 255, 255, 0.6);
+     margin-left: 45%;
+     display: flex;
+     flex-direction: column;
+     padding: 50px;
+}
+.card-2-content{
+     margin-left: 0%;
+     margin-right: 45%;
+}
+.content-title{
+     margin-top: 25px;
+     margin-bottom: 0px;
+}
+.icon-and-deatils {
+     gap: 27px;
+}
+
+.price {
+     color: rgb(255, 84, 0);
+     font-size: 20px;
+     font-weight: 800;
+     margin-top: 10px;
+}
+.deals-card-btn{
+     max-width: 130px;
+}
+/* .icon-color{
+     filter: #ff5500;
+     filter:  drop-shadow(rgb(255, 98, 0));
+} */
