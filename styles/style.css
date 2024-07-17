@@ -10,10 +10,12 @@ body {
 .display-flex {
      display: flex;
 }
-main{
+
+main {
      width: 85%;
      margin: 2rem auto;
 }
+
 section {
      margin-top: 6.25rem;
 }
@@ -37,6 +39,7 @@ section {
      background-color: rgb(255, 84, 0);
      color: white;
      cursor: pointer;
+     font-weight: 800;
 }
 
 /* header styles */
@@ -135,20 +138,90 @@ header {
 .popular-container {
      gap: 3.12rem;
 }
-.popular-content{
+
+.popular-content {
      text-align: justify;
 }
-.popular-title{
+
+.popular-title {
      margin-top: 0px;
-     margin-bottom: 24px;
+     margin-bottom: 1.5rem;
 }
-.popular-points{
-     margin-top: 24px;
-     margin-bottom: 24px;
+
+.popular-points {
+     margin-top: 1.5rem;
+     margin-bottom: 1.5rem;
 }
-.popular-points li{
-     margin-bottom: 16px;
+
+.popular-points li {
+     margin-bottom: 1rem;
 }
-.popular-description{
-     margin-bottom: 32px;
+
+.popular-description {
+     margin-bottom: 2rem;
+}
+
+.popular-content button {
+     font-size: 1.1rem;
+     padding: 1rem 1.5rem;
+}
+
+/* Choose Your Destination section styles */
+.destination-intro {
+     text-align: center;
+     max-width: 700px;
+     margin: 0 auto 45px;
+}
+
+.destination-title {
+     margin-bottom: 1.5rem;
+}
+
+.destination-images img {
+     width: 100%;
+     height: 300px;
+}
+
+.row-1 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin: 1rem 0;
+     gap: 1.5rem;
+}
+.row-2 {
+     display: grid;
+     grid-template-columns: 0.75fr 1fr 0.55fr;
+     margin: 1rem 0;
+     gap: 1.5rem;
+}
+.row-3 {
+     display: grid;
+     grid-template-columns: 0.7fr 1fr;
+     margin: 1rem 0;
+     gap: 1.5rem;
+}
+
+.country-card {
+     position: relative;
+}
+
+.country-card p {
+     position: absolute;
+     top: 40%;
+     left: 40%;
+     color: rgb(255, 255, 255);
+     font-size: 1.75rem;
+     font-weight: 800;
+}
+.north-america p{
+     top: 35%;
+     left: 32%;
+}
+.kashmir p{
+     top: 35%;
+     left: 30%;
+}
+.bangladesh p{
+     top: 35%;
+     left: 35%;
 }
